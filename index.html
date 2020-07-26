@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,28 +7,32 @@
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <section>
+    <section id="Encabezado">
       <h1>Formulario de registro por Alexander Peralta</h1>
-      <h3>gracias por tu tiempo y ayudarnos con este formulario</h3>
+      <h3 class="Subencabezado">
+        gracias por tu tiempo y ayudarnos con este formulario
+      </h3>
     </section>
-    <div>
+    <form >
+    <section id="cajon">
       <h4>Nombre:</h4>
-      <input type="text" name="Nombre" value="Ingrese su nombre" />
+      <input type="text" name="Nombre" value="Ingrese su nombre" class="input"/>
       <h4>E-mail:</h4>
-      <input type="text" name="Email" value="Ingrese su E-mail" />
+      <input type="text" name="Email" value="Ingrese su E-mail"  class="input"/>
       <h4>Edad (opcional):</h4>
-      <input type="text" name="edad" value="Ingrese su edad" />
+      <input type="text" name="edad" value="Ingrese su edad"  class="input" />
       <h4>¿Qué opción describe mejor tu rol actual?:</h4>
 
-      <select name="transporte">
+      <select name="selecciona" class="input">
         <option>Estudiante</option>
         <option>Empleo tiempo completo</option>
         <option>Aprendiz tiempo completo</option>
         <option>Prefiero no responder</option>
         <option>Otro</option>
       </select>
-      <h4>¿En qué te gustaria mejorar?</h4>
       <br />
+      <h4>¿En qué te gustaria mejorar?</h4>
+
       <input type="checkbox" /> Proyectos front-end<br />
       <input type="checkbox" /> Proyectos Back-end<br />
       <input type="checkbox" /> Proyectos Data Visualization<br />
@@ -39,9 +43,15 @@
       <input type="checkbox" /> Wiki<br />
       <input type="checkbox" /> Foro<br />
       <input type="checkbox" /> Curso adicional<br />
-      <h4> Tienes comentarios o sugerencias?</h4>
-      <textarea id="comments"  name="comment" placeholder="Ingrese su mensaje aquí..."></textarea> <br>
+      <h4>Tienes comentarios o sugerencias?</h4>
+      <textarea
+        id="comments"
+        name="comment"
+        placeholder="Ingrese su mensaje aquí..."
+      class="input"></textarea>
+      <br />
       <button>Enviar</button>
-    </div>
+    </section>
+    </form>
   </body>
 </html>

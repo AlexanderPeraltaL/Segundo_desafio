@@ -1,0 +1,64 @@
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg, 
+        rgba(200, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://image.freepik.com/foto-gratis/interfaz-pantalla-tecnologia-futurista_23-2148468690.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+ #Encabezado{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 200px 20px 420px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+  }
+ .Subencabezado{
+      padding: 0px 0px 0px 12px;
+      font-style: italic;
+  } 
+ 
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+form {
+  display: block;
+    
+    text-align: left;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background: rgba(27, 27, 50, 0.8);;
+    margin: 0px 300px 0px 300px;7
+    box-sizing: border-box;
+}
+
+#cajon{
+padding-left: 100px;
+padding-top: 20px;
+padding-bottom: 25px;
+}
+
+.input{
+  background-color: maroon;
+}
