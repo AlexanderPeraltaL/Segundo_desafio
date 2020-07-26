@@ -22,9 +22,10 @@ body::before {
     display: block;
     align-items: center;
     justify-content: center;
-    padding: 50px 200px 20px 420px;
+    padding: 50px 0px 20px 380px;
     font-family: sans-serif;
     color: rgb(255, 255, 255);
+    font-size: 18px;
   }
  .Subencabezado{
       padding: 0px 0px 0px 12px;
@@ -44,21 +45,53 @@ textarea {
 
 form {
   display: block;
-    
-    text-align: left;
     font-family: sans-serif;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     background: rgba(27, 27, 50, 0.8);;
-    margin: 0px 300px 0px 300px;7
-    box-sizing: border-box;
+    margin: 0px 350px 0px 350px;
+    border-radius: 05px;
+   
 }
 
 #cajon{
-padding-left: 100px;
+padding-left: 50px;
 padding-top: 20px;
 padding-bottom: 25px;
 }
 
 .input{
-  background-color: maroon;
+  border-radius: 8px;
+  outline: none;
+  border: 0;
+  width: 91%;
+  height: 30px;
+}
+
+#comments{
+  border-radius: 0px;
+  outline: none;
+  border: 0;
+  width: 90%;
+  height: 100px;
+}
+
+button{
+  display: block;
+  width: 91%;
+  padding: 0.75rem;
+  background: #37af65;;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 0;
+  margin-top: 10px; 
+}
+.checkbox{
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  line-height: 10px;
 }
